@@ -11,7 +11,7 @@ section.calculator h2 {
 }
 section.calculator .item {
 	box-sizing: border-box;
-	border: 1px #CCCCCC solid;
+	border: 1px #cccccc solid;
 	width: 100%;
 	padding-top: 20px;
 	padding-bottom: 10px;
@@ -23,7 +23,7 @@ section.calculator .item {
 	height: 286px;
 }
 section.calculator .item::-webkit-scrollbar {
-	background-color: #E3E3E3;
+	background-color: #e3e3e3;
 	width: 9px;
 	border-radius: 10px;
 	-moz-border-radius: 10px;
@@ -92,7 +92,7 @@ section.calculator .address .house {
 section.calculator input.entry {
 	display: block;
 	height: 39px;
-	border: 1px solid #A7A7A7;
+	border: 1px solid #a7a7a7;
 	border-radius: 6px;
 	padding-left: 9px;
 	font-size: 17px;
@@ -100,9 +100,10 @@ section.calculator input.entry {
 	padding-top: 4px;
 	width: 100%;
 }
-section.calculator input.entry:focus, section.calculator input.entry:active {
+section.calculator input.entry:focus,
+section.calculator input.entry:active {
 	outline: none;
-	border-color: #448DCE;
+	border-color: #448dce;
 }
 section.calculator label.for-entry {
 	top: 13px;
@@ -119,7 +120,8 @@ section.calculator label.for-entry {
 	cursor: text;
 	pointer-events: none;
 }
-section.calculator input.entry:focus + label.for-entry, section.calculator input.entry:valid + label.for-entry {
+section.calculator input.entry:focus + label.for-entry,
+section.calculator input.entry:valid + label.for-entry {
 	transform: translateY(-20px);
 	-webkit-transform: translateY(-20px);
 	-ms-transform: translateY(-20px);
@@ -145,7 +147,7 @@ section.calculator .add-address:focus {
 }
 section.calculator button.circle-button {
 	border: 0;
-	background-color: #FFFFFF;
+	background-color: #ffffff;
 	cursor: pointer;
 	display: flex;
 	display: -ms-flexbox;
@@ -166,11 +168,11 @@ section.calculator span.circle {
 	display: -ms-flexbox;
 	display: -webkit-flex;
 	align-items: center;
-	background-color: #448DCE;
+	background-color: #448dce;
 }
 section.calculator .add-address span.circle {
 	margin-right: 10px;
-	background-color: #448DCE;
+	background-color: #448dce;
 }
 section.calculator .address .close__adress {
 	padding: 0;
@@ -181,7 +183,7 @@ section.calculator .address .close__adress {
 	background-color: #e1e5eb;
 	width: 22px;
 	height: 22px;
-	border: 1px solid #CCCCCC;
+	border: 1px solid #cccccc;
 	border-radius: 50%;
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
@@ -202,7 +204,7 @@ section.calculator .wrap-address .help-message {
 	text-align: center;
 	padding: 10px 0;
 	font-size: 14px;
-	background-color: #FFFFFF;
+	background-color: #ffffff;
 	color: #dc143c;
 	line-height: 1.1;
 	left: 0;
@@ -219,10 +221,10 @@ section.calculator .address .option_list {
 	padding: 0 4px 0 8px;
 	background-color: #ffffff;
 	border-radius: 6px;
-	border: 1px solid #A7A7A7;
+	border: 1px solid #a7a7a7;
 	top: 100%;
 }
-section.calculator .address .option_list>:first-child{
+section.calculator .address .option_list > :first-child {
 	margin-top: 7px;
 }
 section.calculator .address .option_list-item {
@@ -230,7 +232,7 @@ section.calculator .address .option_list-item {
 	font-size: 14px;
 	padding: 4px 3px;
 	line-height: 1.1;
-	list-style: none; 
+	list-style: none;
 }
 section.calculator .address .option_list-item:hover {
 	/*color: #ffffff;
@@ -258,7 +260,7 @@ section.calculator .calc-movers .count {
 	display: -ms-flexbox;
 	display: -webkit-flex;
 	justify-content: space-evenly;
-	border: 1px #A7A7A7 solid;
+	border: 1px #a7a7a7 solid;
 	border-radius: 20px;
 	-moz-border-radius: 20px;
 	-webkit-border-radius: 20px;
@@ -282,7 +284,7 @@ section.calculator .calc-movers .label__mover {
 }
 section.calculator .calc-movers .label__mover-active {
 	background-color: #f19455;
-	color: #FFFFFF;
+	color: #ffffff;
 }
 section.calculator .calc-movers .count input {
 	position: absolute;
@@ -299,8 +301,8 @@ section.calculator .calc-cars {
 }
 section.calculator .calc-cars button.dropdown-cars {
 	text-align: left;
-	background-color: #FFFFFF;
-	border: 1px #A7A7A7 solid;
+	background-color: #ffffff;
+	border: 1px #a7a7a7 solid;
 	border-radius: 10px;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
@@ -320,15 +322,15 @@ section.calculator .calc-cars button.dropdown-cars {
 }
 section.calculator .calc-cars button.dropdown-cars:focus {
 	outline: none;
-	border-color: #448DCE;
+	border-color: #448dce;
 }
 section.calculator .calc-cars button.dropdown-cars::after {
 	position: absolute;
-	content: '';
+	content: "";
 	width: 12px;
 	height: 12px;
-	border-right: 3px solid #ABABAB;
-	border-bottom: 3px solid #ABABAB;
+	border-right: 3px solid #ababab;
+	border-bottom: 3px solid #ababab;
 	transform: rotate(45deg);
 	-webkit-transform: rotate(45deg);
 	-ms-transform: rotate(45deg);
@@ -361,8 +363,8 @@ section.calculator .calc-cars .mini-image img {
 }
 section.calculator .calc-cars .cars-list {
 	display: none;
-	border: 1px #A7A7A7 solid;
-	background-color: #FFFFFF;
+	border: 1px #a7a7a7 solid;
+	background-color: #ffffff;
 	overflow: hidden;
 	width: 100%;
 	position: absolute;
@@ -376,7 +378,7 @@ section.calculator .calc-cars .cars-list {
 	overflow-y: auto;
 }
 section.calculator .calc-cars .cars-list::-webkit-scrollbar {
-	background-color: #E3E3E3;
+	background-color: #e3e3e3;
 	width: 9px;
 	border-radius: 10px;
 	-moz-border-radius: 10px;
@@ -406,7 +408,7 @@ section.calculator .calc-cars .cars-list-item {
 	justify-content: space-between;
 	cursor: pointer;
 	margin: 0;
-	border-top: 1px #CCCCCC dotted;
+	border-top: 1px #cccccc dotted;
 	height: 54px;
 }
 section.calculator .calc-cars .cars-list-item .car-information span.car-name {
@@ -441,7 +443,7 @@ section.calculator .calc-time .count-time {
 section.calculator .calc-time .count-time .time-line {
 	text-align: center;
 	width: 88px;
-	padding:  0 8px 0 2px;
+	padding: 0 8px 0 2px;
 }
 section.calculator .calc-time .count-time .amount {
 	display: inline-block;
@@ -496,7 +498,8 @@ section.calculator .calc-date label.for-entry {
 	cursor: text;
 	pointer-events: none;
 }
-section.calculator .calc-date input.entry:focus + label.for-entry, section.calculator .calc-date input.entry:valid + label.for-entry {
+section.calculator .calc-date input.entry:focus + label.for-entry,
+section.calculator .calc-date input.entry:valid + label.for-entry {
 	transform: none;
 	-webkit-transform: none;
 	-ms-transform: none;
@@ -545,15 +548,23 @@ section.calculator .calc-order .form-sent-error {
 	font-size: 13px;
 }
 
-.green-ru{
-	background-color: #0d824a !important; 
-	box-shadow:#0d824a !important ;
+section.calculator .calc-order .form-sent-error-emptyInputs {
+	position: absolute;
+	top: 57px;
+	font-size: 13px;
+	left: 1%;
+	color: #dc143c;
+}
+
+.green-ru {
+	background-color: #0d824a !important;
+	box-shadow: #0d824a !important ;
 	-webkit-box-shadow: 0 2px 12px #0d824a !important ;
 }
 
-.green-ua{
-	background-color: #0d824a !important; 
-	box-shadow:#0d824a !important ;
+.green-ua {
+	background-color: #0d824a !important;
+	box-shadow: #0d824a !important ;
 	-webkit-box-shadow: 0 2px 12px #0d824a !important ;
 }
 
@@ -578,7 +589,7 @@ section.calculator .calc-order .form-sent-error {
 	section.calculator label.for-entry {
 		font-size: 14px;
 	}
-	section.calculator .wrap-address .help-message  {
+	section.calculator .wrap-address .help-message {
 		font-size: 13px;
 	}
 	section.calculator .mini-title {
@@ -675,7 +686,7 @@ section.calculator .calc-order .form-sent-error {
 		padding: 10px 6px 10px 4px;
 	}
 	section.calculator .item:first-child {
-		padding: 10px 8px 10px 4px
+		padding: 10px 8px 10px 4px;
 	}
 	section.calculator .address {
 		padding-bottom: 20px;
@@ -686,9 +697,9 @@ section.calculator .calc-order .form-sent-error {
 	section.calculator label.for-entry {
 		left: 2px;
 	}
-	section.calculator input.entry:focus + label.for-entry, section.calculator input.entry:valid + label.for-entry {
+	section.calculator input.entry:focus + label.for-entry,
+	section.calculator input.entry:valid + label.for-entry {
 		font-size: 13px;
-
 	}
 	section.calculator .calc-movers {
 		margin: 0 0 36px 0;
@@ -742,7 +753,7 @@ section.calculator .calc-order .form-sent-error {
 	}
 	section.calculator .calc-time .count-time .amount {
 		font-size: 20px;
-		width: 23px
+		width: 23px;
 	}
 	section.calculator .calc-time .count-time .unit {
 		font-size: 12px;
@@ -793,8 +804,8 @@ section.calculator .calc-order .form-sent-error {
 	section.calculator .item:nth-child(2) {
 		border-top: none;
 		border-bottom: none;
-		border-left: 1px #CCCCCC solid;
-		border-right: 1px #CCCCCC solid;
+		border-left: 1px #cccccc solid;
+		border-right: 1px #cccccc solid;
 	}
 	section.calculator .address {
 		padding-bottom: 24px;
@@ -935,7 +946,7 @@ section.calculator .calc-order .form-sent-error {
 		font-size: 11px;
 	}
 	section.calculator .calc-cars .cars-list-item {
-		padding: 7px 26px 7px 12px;;
+		padding: 7px 26px 7px 12px;
 	}
 	section.calculator .calc-cars .cars-list-item .car-information span.car-name {
 		font-size: 13px;
@@ -944,6 +955,10 @@ section.calculator .calc-order .form-sent-error {
 		font-size: 10px;
 	}
 	section.calculator .calc-order button.small-size {
-		margin:  0 0 0 12px;
+		margin: 0 0 0 12px;
 	}
+}
+
+.redInputBorder {
+	border-color: red !important;
 }
