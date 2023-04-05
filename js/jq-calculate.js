@@ -851,11 +851,25 @@
 			}, 450);
 		}
 	});
+	$('#city').click('input', function() {
+		if ($(this).val().length >= 2) {
+			//$('#list_city_1').removeClass('d-none');
+			setTimeout(function () {
+				$('#list_city_1').removeClass('d-none');
+			}, 450);
+		}
+	});
 	$('#list_city_1').click(function() {
 		$('#list_city_1').addClass('d-none');
 	  });
 
 	$('#street').on('input', function() {
+		if ($(this).val().length >= 2) {
+		  $('#list_street_1').removeClass('d-none');
+		}
+	});
+	
+	$('#street').click('input', function() {
 		if ($(this).val().length >= 2) {
 		  $('#list_street_1').removeClass('d-none');
 		}
@@ -872,11 +886,23 @@
 		  
 		}  
 	});
+	$('#city2').click('input', function() {
+		if ($(this).val().length >= 2) {
+		  $('#list_city_2').removeClass('d-none');
+		  
+		}  
+	});
 	$('#list_city_2').click(function() {
 		$('#list_city_2').addClass('d-none');
 	  });
 
 	$('#street2').on('input', function() {
+		if ($(this).val().length >= 2) {
+		  $('#list_street_2').removeClass('d-none');
+		  
+		}  
+	});
+	$('#street2').click('input', function() {
 		if ($(this).val().length >= 2) {
 		  $('#list_street_2').removeClass('d-none');
 		  
@@ -894,11 +920,23 @@
 		  
 		}  
 	});
+	$('#city3').click('input', function() {
+		if ($(this).val().length >= 2) {
+		  $('#list_city_3').removeClass('d-none');
+		  
+		}  
+	});
 	$('#list_city_3').click(function() {
 		$('#list_city_3').addClass('d-none');
 	  });
 
 	$('#street3').on('input', function() {
+		if ($(this).val().length >= 2) {
+		  $('#list_street_3').removeClass('d-none');
+		  
+		}  
+	});
+	$('#street3').click('input', function() {
 		if ($(this).val().length >= 2) {
 		  $('#list_street_3').removeClass('d-none');
 		  
@@ -916,11 +954,23 @@
 		  
 		}  
 	});
+	$('#city4').click('input', function() {
+		if ($(this).val().length >= 2) {
+		  $('#list_city_4').removeClass('d-none');
+		  
+		}  
+	});
 	$('#list_city_4').click(function() {
 		$('#list_city_4').addClass('d-none');
 	  });
 
 	$('#street4').on('input', function() {
+		if ($(this).val().length >= 2) {
+		  $('#list_street_4').removeClass('d-none');
+		  
+		}  
+	});
+	$('#street4').click('input', function() {
 		if ($(this).val().length >= 2) {
 		  $('#list_street_4').removeClass('d-none');
 		  
@@ -938,11 +988,23 @@
 		  
 		}  
 	});
+	$('#city5').click('input', function() {
+		if ($(this).val().length >= 2) {
+		  $('#list_city_5').removeClass('d-none');
+		  
+		}  
+	});
 	$('#list_city_5').click(function() {
 		$('#list_city_5').addClass('d-none');
 	  });
 
 	$('#street5').on('input', function() {
+		if ($(this).val().length >= 2) {
+		  $('#list_street_5').removeClass('d-none');
+		  
+		}  
+	});
+	$('#street5').click('input', function() {
 		if ($(this).val().length >= 2) {
 		  $('#list_street_5').removeClass('d-none');
 		  
@@ -1107,7 +1169,7 @@
 	// закриття блоку підказок при кліку за блоком
 
 	// адреса 1
-	$(document).on("click", function(event) {
+	$(document).click("click", function(event) {
 		var target = $(event.target);
 		if (!target.closest("#select_city_1_wrap").length) {
 		  $("#list_city_1").addClass("d-none");
