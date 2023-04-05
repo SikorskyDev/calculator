@@ -854,9 +854,7 @@
 	$('#city').click('input', function() {
 		if ($(this).val().length >= 2) {
 			//$('#list_city_1').removeClass('d-none');
-			setTimeout(function () {
 				$('#list_city_1').removeClass('d-none');
-			}, 450);
 		}
 	});
 	$('#list_city_1').click(function() {
